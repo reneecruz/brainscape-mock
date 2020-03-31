@@ -22,7 +22,7 @@
       font-size: xx-large;
       color: white;
       font-family: 'Open Sans', sans-serif;
-  }
+  } 
 
 
   .navbar {
@@ -30,6 +30,9 @@
     background-color: #333;
     opacity: .7; 
     font-family: 'Open-Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content:center;
   }
   
   .navbar a {
