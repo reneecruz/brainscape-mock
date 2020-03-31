@@ -18,6 +18,12 @@
   font-family: 'Open Sans', sans-serif;
   }
 
+  h1 {
+      font-size: xx-large;
+      color: white;
+      font-family: 'Open Sans', sans-serif;
+  }
+
 
   .navbar {
     overflow: hidden;

@@ -14,7 +14,7 @@
         </button>
         <div class="dropdown-content" id="myDropdown">
         <a href="#">Aurora Borealis</a>
-        <a href="#">Constellation</a>
+        <a href="#" id="constellation" onclick="constellationOnClick()">Constellation</a>
         <a href="#">Earth Orbit</a>
         <a href="#">EVA</a>
         </div>
@@ -47,7 +47,19 @@
             }
           }
         }
-        </script>       
+    </script>
+
+    <script>
+        
+            function constellationOnClick() {
+            var h1= document.createElement("h1");
+            h1.innerHTML = "Constellation";
+            document.body.append(h1);
+            }
+
+        
+       
+    </script>       
 
 </body>
 </html>
