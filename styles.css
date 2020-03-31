@@ -22,7 +22,13 @@
       font-size: xx-large;
       color: white;
       font-family: 'Open Sans', sans-serif;
-  } 
+      position: absolute;
+      bottom: 10px;
+      left: 60px;
+      font-size: 100px;
+      font-weight: lighter;
+      letter-spacing: unset;
+    } 
 
 
   .navbar {
