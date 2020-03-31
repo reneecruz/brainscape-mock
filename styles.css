@@ -1,0 +1,45 @@
+  body, html {
+    height: 100%;
+    margin: 0;
+ 
+
+  /* Image Location */ 
+  background-image: url("images/background.jpg"); 
+  
+  /* Background image is centered vertically and horizontally at all times */ 
+  background-position: center center; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+  background-size: cover; 
+  background-color: #464646; 
+  /* Font Colour */ 
+  color:white; 
+  /* Font Family */
+  font-family: 'Open Sans', sans-serif;
+  }
+
+   
+  nav {
+    margin-bottom: 100px;
+    padding-top: 1rem;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  nav li {
+    list-style: none;
+  }
+  
+  nav a {
+    border: 1px solid transparent;
+    color: black;
+    padding: 0.5em 1em;
+    text-decoration: none;
+  }
+  
+  nav a:hover,nav a:focus {
+    border: 1px solid white;
+  }
